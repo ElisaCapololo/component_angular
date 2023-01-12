@@ -10,6 +10,8 @@ import { MainBodyComponent } from './main-body/main-body.component';
 import { FormsModule } from '@angular/forms';
 import { DirectivesComponent } from './directives/directives.component';
 import { TaskNumberComponent } from './task-number/task-number.component';
+import { ParentComponent } from './parent/parent.component';
+import { ChildComponent } from './child/child.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { TaskNumberComponent } from './task-number/task-number.component';
     FooterComponent,
     MainBodyComponent,
     DirectivesComponent,
-    TaskNumberComponent
+    TaskNumberComponent,
+    ParentComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,
