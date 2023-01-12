@@ -7,6 +7,9 @@ import { NewComponentComponent } from './new-component/new-component.component';
 import { SideBarComponent } from './side-bar/side-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { MainBodyComponent } from './main-body/main-body.component';
+import { FormsModule } from '@angular/forms';
+import { DirectivesComponent } from './directives/directives.component';
+import { TaskNumberComponent } from './task-number/task-number.component';
 
 @NgModule({
   declarations: [
@@ -14,10 +17,13 @@ import { MainBodyComponent } from './main-body/main-body.component';
     NewComponentComponent,
     SideBarComponent,
     FooterComponent,
-    MainBodyComponent
+    MainBodyComponent,
+    DirectivesComponent,
+    TaskNumberComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule
   ],
   providers: [],

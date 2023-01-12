@@ -7,6 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainBodyComponent implements OnInit {
 
+  firstName = "Elisa";
+  defaulValue="Capololo";
+
+  passValueToComponent(e: any){
+    console.log(e.target.value);
+  }
+
+  changeValue(e: any){
+    console.log(e.target.value);
+  }
+  
   constructor() { }
 
   ngOnInit(): void {
